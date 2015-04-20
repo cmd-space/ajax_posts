@@ -4,6 +4,6 @@ class Note extends CI_Model
 {
 	public function all()
 	{
-		return $this->db->query('SELECT * FROM posts')->result_array()
+		return $this->db->query('SELECT * FROM posts')->result_array();
 	}
 }
