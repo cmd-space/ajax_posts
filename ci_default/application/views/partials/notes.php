@@ -3,7 +3,7 @@
 	{
 ?>
 		<div class="note">
-			<p><?= $note ?></p>
+			<p><?= $note['post'] ?></p>
 		</div>
 <?php
 	}

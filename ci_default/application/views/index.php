@@ -21,6 +21,18 @@
 			});
 		});
 	</script>
+	<style>
+		.note
+		{
+			width: 10em;
+			height: 10em;
+			display: inline-block;
+			margin: .5em .5em;
+			border: 1px solid black;
+			padding: .5em .5em;
+			overflow: auto;
+		}
+	</style>
 </head>
 <body>
 	<h1>My Posts:</h1>
