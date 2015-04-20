@@ -24,7 +24,8 @@ class Notes extends CI_Controller {
 
   public function index()
   {
-    $this->load->model('Note');
+  	$this->output->enable_profiler(TRUE);
+  	$this->load->model('Note');
     $this->load->view('index');
   }
 }
